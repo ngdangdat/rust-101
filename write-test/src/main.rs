@@ -1,3 +1,4 @@
 fn main() {
-    println!("Hello, world!");
+    let s = String::with_capacity(10);
+    println!("s: {}", s);
 }
